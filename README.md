@@ -47,7 +47,6 @@ For my automated CI/CD workflow, I am using GitHub Actions and Flux. GitHub Acti
 
 First I created a simple python application using the Flask framework:
 
-    ```python
     from flask import Flask
     app = Flask(__name__)
 
@@ -57,7 +56,7 @@ First I created a simple python application using the Flask framework:
 
     if __name__ == "__main__":
       app.run(host='0.0.0.0', port=7000)
-    ```
+    
 I placed my Flask source code in a directory with a requirements file that specifies the dependencies required to run the Flask application. Then I created a Dockerfile which specifies how to build the container image for my application.
 
 ### Continuous Deployment
