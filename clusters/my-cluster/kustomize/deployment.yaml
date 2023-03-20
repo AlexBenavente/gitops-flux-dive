@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: abenavente1/gitops-flux-dive:v1.0.0 # {"$imagepolicy": "myapp:myapp"}
+          image: abenavente1/gitops-flux-dive:v1.0.1 # {"$imagepolicy": "myapp:myapp"}
           ports:
             - containerPort: 7000
