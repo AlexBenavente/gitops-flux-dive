@@ -27,7 +27,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-I am developing my GitOps skills through this project. GitOps is an approach to automating DevOps pipelines. It utilizes a version control system, such as Git, for creating and maintaining infrastructure and application source code. This code is stored in a Git repository and acts as your single source of truth. Gitops mechanisms will ensure that the real state (the one in your Kubernetes cluster for example) matches your desired state (the one defined in Git) and will reconcile both.
+I am developing my GitOps skill set through this project. GitOps is an approach to automating DevOps pipelines. It utilizes a version control system, such as Git, for creating and maintaining infrastructure and application source code. This code is stored in a Git repository and acts as your single source of truth. Gitops mechanisms will ensure that the real state (the one in your Kubernetes cluster for example) matches your desired state (the one defined in Git) and will reconcile both.
 
 
 ### Built With
