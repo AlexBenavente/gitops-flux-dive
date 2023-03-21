@@ -43,6 +43,8 @@ I am developing my GitOps skill set through this project. GitOps is an approach 
 
 For my automated CI/CD workflow, I am using GitHub Actions and Flux. GitHub Actions builds and pushes container images to my Docker Hub image repository. Flux is installed and configured within my environment to deploy my application into my Kubernetes cluster and keep them synchronized with the GitHub and Docker Hub repositories.
 
+![GitOps Flux Dive](https://github.com/AlexBenavente/Images/blob/main/gitops-flux-dive.png)
+
 ### Python Application
 
 First I created a simple python application using the Flask framework:
